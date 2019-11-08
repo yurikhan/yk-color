@@ -66,7 +66,7 @@ with all components between 0.0 and 1.0 inclusive, linear RGB."
 
 (defun yk-color-relative-luminance (color)
   "Calculate relative luminance of the named color."
-  (yk-color-relative-luminance (yk-color-to-rgb color)))
+  (yk-color-relative-luminance-rgb (yk-color-to-rgb color)))
 
 (defun yk-color-contrast-ratio-rgb (rgb1 rgb2)
   "Calculate contrast ratio between two colors, as defined by WCAG 2.0.
